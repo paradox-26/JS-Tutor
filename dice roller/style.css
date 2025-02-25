@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial,sans-serif;
+    font-weight: 100;
+    background-color: hsl(0, 0%, 83%);
+    margin-top: 2em;
+}
+h1 {
+    color: hsl(160, 27%, 50%);
+}
+.container {
+    text-align: center;
+    font-size: 2rem;
+
+}
+#numOfDice {
+    width: 150px;
+    text-align: center;
+    font-size:2rem;
+    padding: 0.5rem;
+}
+label {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+#submit {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  background-color: rgb(3, 213, 255);
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px grey;
+}
+#submit:hover {
+    transition:0.5s;
+    background-color: rgba(0, 255, 234, 0.557);
+}
+#submit:active {
+    background-color: rgba(0, 229, 255, 0.687);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.598);
+}
+
+#res {
+    margin-top: 2em;
+    font-size: 2em;
+    font-weight: bold;
+}
+#diceResult {
+    font-weight: bold;
+    margin: 10px 5px;
+    padding: 12px;
+}
+#diceImages img{
+    width:150px;
+    margin: 10px 10px;
+    padding: 15px 10px;
+    border-radius: 15%;
+}
